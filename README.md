@@ -34,13 +34,16 @@ Memory is a circuit in Logism that allocates a random-access memory (RAM) that c
 For lw instructions, the appropriate value in memory is accessed. For sw instructions, the appropriate value in memory is written to, like it would in a register file.
 
 ### InstructionHandling
-InstructionHandling is a circuit in Logism that serves as read-only memory (ROM) that stores the instructions output of the assembler.
+InstructionHandling is a circuit in Logisim that serves as read-only memory (ROM) that stores the instructions output of the assembler.
 
 ###  CPU
+CPU is a circuit in Logisim that interprets, processes and executes instructions, from the hardware and software programs running on the device. The CPU performs arithmetic, logic, and other operations to transform data input into more usable information output.
 
 ### KeyboardController
+KeyboardController is a circuit in Logisim that handles the input received from the keyboard.
 
 ### RGBController
+RGBController is a circuit in Logisim that handles the pixels that show up on the monitor based on a given keyboard input. 
 
 ### Snake Game
 
