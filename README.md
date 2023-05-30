@@ -43,7 +43,11 @@ CPU is a circuit in Logisim that interprets, processes and executes instructions
 KeyboardController is a circuit in Logisim that handles the input received from the keyboard.
 
 ### RGBController
-RGBController is a circuit in Logisim that handles the pixels that show up on the monitor based on a given keyboard input. 
+RGBController is a circuit in Logisim that handles the pixels that show up on the monitor based on a given keyboard input. It contains: <br />
+&emsp;- 1 internal register to store the x coordinates of the pixel <br />
+&emsp;- 1 internal register to store the y coordinates of the pixel <br />
+&emsp;- 1 internal register to store the RGB color of the pixel <br />
 
 ### Snake Game
+Tron is a file that contains assembly code for the Snake Game. A tron cycle is controlled using the “wasd” keys until it crashes into itself or the wall.
 
